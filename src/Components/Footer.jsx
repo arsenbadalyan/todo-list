@@ -16,7 +16,7 @@ const Footer = ({ todo }) => {
             : `${checkLength} / ${todoLength} Completed`
           : 'Empty'}
       </p>
-      <button onClick={clearHandle}>Clear Completed</button>
+      <button onClick={clearHandle}>Clear Completed Tasks</button>
     </div>
   );
 };

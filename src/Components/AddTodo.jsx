@@ -20,7 +20,7 @@ const AddTodo = ({ todo }) => {
         onChange={(e) => setNewTodo(e.target.value)}
         placeholder="What needs to be done?"
       />
-      <button onClick={addTodo}>Add</button>
+      <button onClick={addTodo}>ADD</button>
     </form>
   );
 };
